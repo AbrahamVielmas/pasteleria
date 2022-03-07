@@ -1,0 +1,187 @@
+* {
+  font-family: monospace;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(21, 26, 102);
+}
+
+#contenedor__rutas {
+  float: right;
+}
+
+#__rutas {
+  list-style: none;
+}
+
+#__rutas li {
+  display: inline-block;
+  padding: 15px;
+  background-color: rgb(60, 69, 189);
+  border-radius: 10px;
+  margin-right: 8px;
+}
+
+#__rutas li:hover {
+  background-color: rgb(97, 106, 235);
+}
+
+.rutas {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: large;
+}
+
+main {
+  display: grid;
+}
+
+#cont__titulo {
+  margin: 50px 0 0 80px;
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  text-align: center;
+  max-width: 650px;
+}
+
+#lista__pasteles {
+  position: relative;
+}
+
+/*
+#titulo {
+  position: relative;
+  font-size: 64px;
+  color: rgb(255, 255, 255);
+  margin: 30px 0 0 80px;
+}
+*/
+
+/*Estilos pagina de contacto*/
+form > div > input {
+  border: none;
+  border-radius: 5px;
+}
+
+#cont__form {
+  background-color: rgb(60, 69, 189);
+  margin: 90px 300px 0 400px;
+  width: 600px;
+  position: absolute;
+  height: auto;
+  text-align: center;
+  display: grid;
+  box-shadow: rgb(150, 150, 150) 10px 10px 50px 10px;
+  border-radius: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+label,
+input {
+  display: flex;
+  margin: 15px;
+}
+
+input {
+  font-size: 18px;
+}
+
+#btn {
+  color: black;
+  background-color: white;
+  padding: 10px;
+  font-size: 20px;
+  width: 200px;
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+#btn:hover {
+  background-color: rgb(228, 220, 220);
+  border: 3px solid black;
+}
+
+/*Estilos pagina admin*/
+
+#cont__sabores {
+  box-shadow: rgb(228, 220, 220) -5px 0px 5px 5px;
+  position: absolute;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 100px 0 0 350px;
+}
+
+#cont__adornos {
+  box-shadow: rgb(228, 220, 220) 5px 0px 5px 5px;
+  position: absolute;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 100px 0 0 700px;
+}
+
+#cont__respuestas {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin: 380px 0 0 180px;
+  box-shadow: rgb(228, 220, 220) 5px 0px 5px 5px;
+  border-radius: 10px;
+}
+
+tr,
+th,
+td {
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+th {
+  background-color: rgb(60, 69, 189);
+  color: white;
+  padding: 5px;
+}
+
+td {
+  background-color: rgb(97, 106, 235);
+  color: white;
+  padding: 5px;
+}
+
+/*Estilos footer*/
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(60, 69, 189);
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 10px;
+  bottom: 0;
+  position: relative;
+}
+
+footer > div {
+  margin: 40px;
+  color: white;
+}
+
+#sabores__pasteles > p {
+  display: flex;
+  flex-direction: row;
+}

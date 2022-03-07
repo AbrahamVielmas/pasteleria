@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria</title>
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    <header>
+        <nav id="contenedor__rutas">
+            <ul id="__rutas">
+                <li><a class="rutas" href="../index.html">Inicio</a></li>
+                <li><a class="rutas" href="./quienessomos.html">Quienes Somos</a></li>
+                <li><a class="rutas" href="#">Contacto</a></li>
+                <li><a class="rutas" href="./admin.html">Administrador</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="cont__form">
+        <form action="">
+            <div>
+                <label for="nombre">Nombre</label>
+                <input autofocus placeholder="Tu Nombre" type="text" name="nombre">
+            </div>
+            <div>
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellidoP" placeholder="Apellido">
+            </div>
+            <div>
+                <label for="telefono">Telefono</label>
+                <input type="number" name="telefono" placeholder="10 digitos">
+            </div>
+            <div>
+                <label for="correo">Correo</label>
+                <input type="mail" name="correo" placeholder="ejemplo@gmail.com">
+            </div>
+            <div>
+                <label for="fecha">Entrega</label>
+                <input type="date" name="fecha">
+            </div>
+            <div>
+                <label for="descripcion">Descripcion</label>
+                <textarea name="descripcion"cols="30" placeholder="Descripcion general de tu pedido" rows="10"></textarea>
+            </div>
+            <div>
+                <input id="btn" type="submit">
+                <button id="btn">G google</button>
+            </div>
+            <style>
+                button{
+                    border: none;
+                    border-radius: 5px;
+                    margin-bottom: 20px;
+                }
+            </style>
+            <!--hay que agregar los sabores y adornos-->
+        </form>
+    </div>
+    <hr />
+    <footer>
+        <div>
+            <h1>Horarios de atencion</h1>
+            <p>Lunes a Sabado de: 8:00am a 8:00pm</p>
+            <p>Domingo de 9:00am a 3:00pm</p>
+        </div>
+        <div>
+            <h1>Direccion</h1>
+            <p>New York, calle 5ta, #458</p>
+            <p>E.U.A</p>
+        </div>
+        <div>
+            <h1>Contactanos</h1>
+            <p>5123157985</p>
+            <a href="#">Click -> Contacto</a>
+        </div>
+        <div>
+            <a href="https://www.facebook.com/" target="_blanck"><img src="../asset/img/facebook.png" /></a>
+            
+        </div>
+        <div>
+            <a target="_blanck" href="https://www.instagram.com"><img src="../asset/img/instagram.png" /></a>
+        </div>
+        <div>
+            <a target="_blanck" href="https://www.twitter.com"><img src="../asset/img/twiter.png" /></a>
+        </div>
+    </footer>
+    <style>
+        hr{
+            width: 90%;
+            margin-top: 400px;
+        }
+        img{
+            max-width: 50px;
+            max-height: 50px;
+        }
+        footer{
+            margin-top: 600px;
+            margin-bottom: 20px;
+        }
+    </style>
+</body>
+</html>
